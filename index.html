@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calvin Simple — Front-end Developer, Web Developer, UI Designer and Electrician in Yaoundé, Cameroon.">
+  <meta name="theme-color" content="#050505">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Calvin Simple | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="magicCanvas" aria-hidden="true"></canvas>
+  <div class="gold-dust" id="goldDust" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="Calvin Simple home">
+      <span class="brand-logo">CS</span>
+      <span class="brand-name">Calvin Simple</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="download-cv" href="mailto:simplecalvin8@gmail.com?subject=CV%20Request%20for%20Calvin%20Simple">⇩ <span>Download CV</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero page-width">
+      <div class="hero-copy reveal">
+        <div class="hello-line"><span></span> HELLO, I'M <i></i></div>
+        <h1>NDINGAWANYUI<br>CALVIN AHENYUI</h1>
+        <div class="signature">Calvin Simple</div>
+        <h2>Front-end Developer <b>|</b> Web Developer <b>|</b> UI Designer<br>&amp; Electrician</h2>
+        <p>I build digital solutions, design seamless user experiences,<br class="desktop-only"> and work with electricity — bridging the gap between<br class="desktop-only"> the physical and digital worlds.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="gold-btn">View My Projects <span>→</span></a>
+          <a href="#contact" class="dark-btn">✉ &nbsp; Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-portrait reveal delay-1">
+        <div class="portrait-aura"></div>
+        <div class="portrait-ring ring-1"></div>
+        <div class="portrait-ring ring-2"></div>
+        <img src="assets/calvin-profile.png" alt="Calvin Simple in a dark green suit" width="768" height="1152" fetchpriority="high" decoding="async">
+      </div>
+
+      <aside class="contact-rail reveal delay-2">
+        <a href="https://github.com/simplecalvin8_web" target="_blank" rel="noopener" class="rail-item"><span class="rail-icon">GH</span><div><b>GitHub</b><small>simplecalvin8_web</small></div></a>
+        <a href="mailto:simplecalvin8@gmail.com" class="rail-item"><span class="rail-icon">@</span><div><b>Email</b><small>simplecalvin8@gmail.com</small></div></a>
+        <a href="tel:+237673891954" class="rail-item"><span class="rail-icon">☎</span><div><b>Phone</b><small>673 891 954</small></div></a>
+        <a href="https://wa.me/237652471047" target="_blank" rel="noopener" class="rail-item"><span class="rail-icon">WA</span><div><b>WhatsApp</b><small>652 471 047</small></div></a>
+        <div class="rail-item"><span class="rail-icon">⌖</span><div><b>Location</b><small>Yaoundé, Cameroon</small></div></div>
+        <div class="rail-tag">Let's Build<br><em>Something Great</em></div>
+      </aside>
+    </section>
+
+    <section id="about" class="about-section page-width section-block">
+      <div class="about-panel reveal">
+        <div class="script-heading">About Me <span></span></div>
+        <p>I'm <strong>Ndingawanyui Calvin Ahenyui</strong>, a passionate front-end developer, web developer, UI designer and electrician. I'm currently an HND 1 student at YIBS, pursuing Software Engineering (2026 – 2028).</p>
+        <p>With <strong>5+ years of electrical experience</strong>, I also completed a 6-month internship at NGAHTECH. I'm skilled in HTML, CSS, JavaScript, SQL, C++ and Python.</p>
+        <p>My vision is simple — to be the bridge between electricity and software, creating solutions that power people's lives.</p>
+        <a href="#experience" class="outline-gold">More About Me <span>→</span></a>
+      </div>
+
+      <div class="facts-panel reveal delay-1">
+        <div class="fact"><span>⌾</span><div><b>Education</b><small>YIBS – HND Software Engineering<br>(2026 – 2028) • HND 1</small></div></div>
+        <div class="fact"><span>▣</span><div><b>Internship</b><small>NGAHTECH<br>6 months experience</small></div></div>
+        <div class="fact"><span>ϟ</span><div><b>Work Experience</b><small>Electrician<br>5+ years</small></div></div>
+        <div class="fact"><span>⌖</span><div><b>Location</b><small>Yaoundé, Cameroon</small></div></div>
+        <div class="fact"><span>◎</span><div><b>Languages</b><small>English &amp; French (Good)</small></div></div>
+      </div>
+
+      <div id="skills" class="skills-panel reveal delay-2">
+        <div class="script-heading">My Skills <span></span></div>
+        <div class="skill-row"><b>HTML</b><div><i style="width:95%"></i></div><strong>95%</strong></div>
+        <div class="skill-row"><b>CSS</b><div><i style="width:90%"></i></div><strong>90%</strong></div>
+        <div class="skill-row"><b>JavaScript</b><div><i style="width:85%"></i></div><strong>85%</strong></div>
+        <div class="skill-row"><b>SQL</b><div><i style="width:80%"></i></div><strong>80%</strong></div>
+        <div class="skill-row"><b>C++</b><div><i style="width:75%"></i></div><strong>75%</strong></div>
+        <div class="skill-row"><b>Python</b><div><i style="width:70%"></i></div><strong>70%</strong></div>
+        <div class="skill-motto">“Code + Connect + Create”</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section page-width section-block">
+      <div class="projects-title"><div class="script-heading">My Projects <span></span></div><a href="#sites">View All Projects →</a></div>
+      <div class="projects-grid">
+        <article class="project-card reveal" data-project="fixlink">
+          <div class="project-image project-fixlink"><span>FIXLINK<br><small>CAMEROON</small></span></div>
+          <div class="project-body"><h3>Fixlink Cameroon</h3><p>Electricity services platform</p><span class="status-chip process">● In Progress</span><div class="card-actions"><button class="details-btn">Details →</button><span class="disabled-live">Live Site →</span></div></div>
+        </article>
+        <article class="project-card reveal delay-1" data-project="electric">
+          <div class="project-image project-electric"><span>SIMPLE'S<br>ELECTRIC</span></div>
+          <div class="project-body"><h3>Simple's Electric Services</h3><p>Electrician business website</p><span class="status-chip done">● Completed</span><div class="card-actions"><button class="details-btn">Details →</button><a href="#contact" class="live-small">Live Site →</a></div></div>
+        </article>
+        <article class="project-card reveal delay-2" data-project="shop">
+          <div class="project-image project-shop"><span>SIMPLE'S<br>SHOP</span></div>
+          <div class="project-body"><h3>Simple's Shop</h3><p>E-commerce platform</p><span class="status-chip done">● Completed</span><div class="card-actions"><button class="details-btn">Details →</button><span class="disabled-live">Live Site →</span></div></div>
+        </article>
+        <article class="project-card reveal" data-project="motivation">
+          <div class="project-image project-ntaima"><span>NTAIMA<br><small>Find Your Motivation</small></span></div>
+          <div class="project-body"><h3>Ntaima (Motivation Site)</h3><p>Motivation &amp; success platform</p><span class="status-chip live">Live Site</span><div class="card-actions"><button class="details-btn">Details →</button><a href="https://ntaima.netlify.app/" target="_blank" rel="noopener" class="live-small gold-live">Live Site →</a></div></div>
+        </article>
+        <article class="project-card reveal delay-1" data-project="caminfra">
+          <div class="project-image project-caminfra"><span>CAM-INFRA</span></div>
+          <div class="project-body"><h3>CAM-INFRA</h3><p>Infrastructure monitoring platform</p><span class="status-chip process">● In Progress</span><div class="card-actions"><button class="details-btn">Details →</button><span class="disabled-live">Live Site →</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="experience-section page-width section-block">
+      <div class="script-heading">Experience <span></span></div>
+      <div class="experience-grid">
+        <div class="experience-card"><b>YIBS</b><span>HND Software Engineering · 2026–2028</span></div>
+        <div class="experience-card"><b>NGAHTECH</b><span>6-month internship experience</span></div>
+        <div class="experience-card"><b>Electrical Work</b><span>5+ years practical experience</span></div>
+      </div>
+    </section>
+
+    <section id="sites" class="sites-section page-width section-block">
+      <div class="script-heading">My Sites &amp; Digital Presence <span></span></div>
+      <div class="site-links">
+        <a href="https://github.com/simplecalvin8_web" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+        <a href="mailto:simplecalvin8@gmail.com">Email <span>↗</span></a>
+        <a href="tel:+237673891954">Phone <span>↗</span></a>
+        <a href="https://wa.me/237652471047" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+        <a href="https://ntaima.netlify.app/" target="_blank" rel="noopener" class="site-live">Ntaima — Live <span>↗</span></a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section page-width section-block">
+      <div class="contact-box reveal">
+        <div class="script-heading">Let's Build <span></span></div>
+        <h2>Something <em>Great.</em></h2>
+        <p>Web development • UI design • electrical-related digital projects • collaboration</p>
+        <div class="contact-buttons"><a href="mailto:simplecalvin8@gmail.com" class="gold-btn">Email Me →</a><a href="https://wa.me/237652471047" target="_blank" rel="noopener" class="dark-btn">WhatsApp →</a></div>
+      </div>
+    </section>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+        <div class="script-heading">Project Details <span></span></div>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div id="modalTags" class="modal-tags"></div>
+        <a id="modalLive" class="gold-btn" href="#" target="_blank" rel="noopener" hidden>Open Live Site →</a>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="footer-line"></div><strong>CALVIN SIMPLE</strong><span>SKILLS + DISCIPLINE + VISION = FREEDOM</span><small>© <span id="year"></span> Calvin Simple · Built with HTML, CSS &amp; JavaScript</small></footer>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
